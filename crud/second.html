@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+​
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+​<style>
+
+	.wrapper {
+  width: 280px;
+  background: #f1f1f1;
+  height: 280px;
+  padding: 60px 85px;
+  position: absolute;
+  border-radius: 20px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+    }
+
+  .btn-warning {
+      position: absolute;
+      top: 60%;
+      left: 30px;
+    }
+
+    .btn2 {
+      position: absolute;
+      top: 60%;
+      left: 160px;
+    }
+    
+    p{
+      position: absolute;
+      left:65px;
+      font-size: 20px;
+      font-family: "Times New Roman", Times, serif;
+    }
+
+</style>
+</head>
+<body>
+  <form action="./abc.php" method="POST">
+​<div class="wrapper">
+  <button type="button" class="btn btn-danger">Emergency</button>
+<br><br>
+<p>Select the Time</p>
+  <input type="submit" class="btn btn-warning" name="thirty_min">30 min</input>
+<br><br>
+<input type="submit" class="btn btn-warning btn2" name="one_hour">1 hour</input>
+</div>
+</form>
+</body>
+</html>
